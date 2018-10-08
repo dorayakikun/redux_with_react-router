@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "strict": true,
+    "target": "es5",
+    "types": ["react", "react-dom", "react-redux", "redux"],
+    "typeRoots": ["node_modues/@types"]
+  },
+  "exclude": ["node_modules", "public"]
+}
