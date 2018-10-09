@@ -1,9 +1,7 @@
 import { connect } from 'react-redux'
 
-import { Status } from '../components/Status'
+import { Hello } from '../components/Hello'
 
-const mapStateToProps = (state: number) => ({ value: state })
+const connector = connect()
 
-const connector = connect(mapStateToProps)
-
-export const SubApp = connector(Status)
+export const SubApp = connector(Hello)
